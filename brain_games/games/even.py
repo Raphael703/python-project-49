@@ -7,11 +7,12 @@ def is_even(num):
     return 'yes' if num % 2 == 0 else 'no'
 
 
-def get_number_and_correct_answer():
+def get_problem_number_and_answer():
     number = get_random_number()
-    correct_answer = is_even(number)
-    return number, correct_answer
+    answer = is_even(number)
+
+    return number, answer
 
 
-def start_even_game():
-    run_game(get_number_and_correct_answer, EVEN_INSTRUCTION)
+def run_even_game():
+    run_game(get_problem_number_and_answer, EVEN_INSTRUCTION)

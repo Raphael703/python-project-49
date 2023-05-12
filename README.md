@@ -10,5 +10,8 @@
 ### Brain calc:
 [![asciicast](https://asciinema.org/a/P4J2O1fE6dBGuuPWAe8fZCNGs.svg)](https://asciinema.org/a/P4J2O1fE6dBGuuPWAe8fZCNGs)
 
-### Brain calc:
+### Brain gcd:
 [![asciicast](https://asciinema.org/a/ZKvkf3dNLiUEsyFCKDXUVU1pa.svg)](https://asciinema.org/a/ZKvkf3dNLiUEsyFCKDXUVU1pa)
+
+### Brain progression:
+[![asciicast](https://asciinema.org/a/dT4XbhbcYoQyQHt63iLrnVWGL.svg)](https://asciinema.org/a/dT4XbhbcYoQyQHt63iLrnVWGL)
