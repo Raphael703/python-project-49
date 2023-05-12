@@ -4,12 +4,12 @@ from brain_games.const import EVEN_INSTRUCTION
 
 
 def is_even(num):
-    return 'yes' if num % 2 == 0 else 'no'
+    return True if num % 2 == 0 else False
 
 
 def get_problem_number_and_answer():
     number = get_random_number()
-    answer = is_even(number)
+    answer = 'yes' if is_even(number) else 'no'
 
     return number, answer
 
