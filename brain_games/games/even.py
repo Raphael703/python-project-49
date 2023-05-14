@@ -8,10 +8,10 @@ def is_even(num):
 
 
 def get_problem_number_and_answer():
-    number = get_random_number()
-    answer = 'yes' if is_even(number) else 'no'
+    num = get_random_number()
+    answer = 'yes' if is_even(num) else 'no'
 
-    return number, answer
+    return num, answer
 
 
 def run_even_game():

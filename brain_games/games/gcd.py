@@ -7,9 +7,9 @@ from brain_games.const import GCD_INSTRUCTION
 def get_nums_pair_and_gcd():
     first_num, second_num = get_random_number(), get_random_number()
     nums_pair = f'{first_num} {second_num}'
-    answer = math.gcd(first_num, second_num)
+    gcd = math.gcd(first_num, second_num)
 
-    return nums_pair, str(answer)
+    return nums_pair, str(gcd)
 
 
 def run_gcd_game():
