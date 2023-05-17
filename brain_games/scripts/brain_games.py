@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-from brain_games.cli import welcome_user_and_get_name
+from brain_games.cli import welcome_user
 
 
 def main():
-    welcome_user_and_get_name()
+    welcome_user()
     return
 
 
